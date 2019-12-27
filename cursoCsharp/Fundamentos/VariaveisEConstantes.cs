@@ -18,6 +18,7 @@ namespace cursoCsharp.Fundamentos
             double area = PI * raio * raio;
             Console.WriteLine(area);
             Console.WriteLine("area é" + area);
+            Console.WriteLine("");
         }
     }
 }
