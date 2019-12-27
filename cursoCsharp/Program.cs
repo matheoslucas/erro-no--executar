@@ -6,11 +6,14 @@ namespace CursoCSharp
     {
         static void Main(string[] args)
         {
-            var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                               {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar()
-
-                }
-                            });
+            var central = new CentralDeExercicios(new Dictionary<string, Action>()
+            {
+                { "Primeiro Programa - Fundamentos",() => Console.WriteLine("olá")
+                  },
+                {"comentarios - Fundamentos",() => Console.WriteLine("") },
+                {"variaveis e constantes",() => Console.WriteLine("")
+                 }
+             });
 
             central.SelecionarEExecutar();
         }
