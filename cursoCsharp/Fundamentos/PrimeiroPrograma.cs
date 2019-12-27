@@ -10,6 +10,7 @@ namespace cursoCsharp.Fundamentos
             Console.WriteLine("programa");
             Console.WriteLine("terminou");
         }
+
     }
 }
 
