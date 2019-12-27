@@ -4,7 +4,7 @@ using System.Text;
 
 namespace cursoCsharp.Fundamentos
 {
-    class VariaveisEConstantes
+   public class VariaveisEConstantes 
     {
         public static void Executar()
         {
@@ -17,8 +17,8 @@ namespace cursoCsharp.Fundamentos
             //PI= 3.1415
             double area = PI * raio * raio;
             Console.WriteLine(area);
-            Console.WriteLine("area é" + area);
-            Console.WriteLine("");
+            Console.WriteLine("area é" + area + 1000);
+            Console.WriteLine( "");
         }
     }
 }
